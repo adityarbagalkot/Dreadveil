@@ -14,6 +14,7 @@ Canonical target-design reference for the UI and rules. These documents specify 
 - [Character Visual Standards](characters/visual-standards.md)
 - [Character UI Specification](characters/ui-specification.md)
 - [Character Asset Manifest](characters/asset-manifest.md)
+- [Character Roster Consistency Audit](characters/roster-consistency-audit.md)
 - [Character Balance Review](characters/balance-review.md)
 - [Encounter Baselines](encounters/encounter-baselines.md)
 - [Testing and Balance](testing/testing-and-balance.md)
