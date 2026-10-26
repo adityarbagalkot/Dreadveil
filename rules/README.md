@@ -8,6 +8,7 @@ Canonical target-design reference for the UI and rules. These documents specify 
 - [Enemy Intent and Visibility](core/enemy-intents.md)
 - [Twenty-Character Roster](characters/roster.md)
 - [Character Ability Contracts](characters/abilities.md)
+- [Character Profiles](characters/profiles.md)
 - [Character Visual Standards](characters/visual-standards.md)
 - [Character Balance Review](characters/balance-review.md)
 - [Encounter Baselines](encounters/encounter-baselines.md)
