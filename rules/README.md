@@ -7,7 +7,9 @@ Canonical target-design reference for the UI and rules. These documents specify 
 - [Turn Flow and Resolution](core/turn-flow.md)
 - [Enemy Intent and Visibility](core/enemy-intents.md)
 - [Twenty-Character Roster](characters/roster.md)
-- [Ability Contracts](characters/abilities.md)
+- [Character Ability Contracts](characters/abilities.md)
+- [Character Visual Standards](characters/visual-standards.md)
+- [Character Balance Review](characters/balance-review.md)
 - [Encounter Baselines](encounters/encounter-baselines.md)
 - [Testing and Balance](testing/testing-and-balance.md)
 
