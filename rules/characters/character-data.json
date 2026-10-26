@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 1,
+  "documentType": "dreadveil-character-design-data",
+  "status": "design-reference",
+  "implementationWarning": "These stable IDs and values are design-reference data only. Reconcile with implementation IDs and balance-test values before importing into game code.",
+  "artDirection": "The Forbidden Manuscript",
+  "characters": [
+    {
+      "id": "darius-forgeward",
+      "number": 1,
+      "displayName": "Darius Forgeward",
+      "archetype": "Forge Tank",
+      "title": "The Forgeguard",
+      "hybridSpecies": ["Rhinoceros", "Badger", "Tortoise"],
+      "weapon": "Anvil maul",
+      "hp": 44,
+      "cooldown": 3,
+      "role": ["tank", "counterattack"],
+      "ability": {
+        "id": "forgeguard",
+        "name": "Forgeguard",
+        "shortEffect": "Gain 10 Guard. If the current attack damages Darius, scorch the attacker for 3 damage."
+      },
+      "visualSignature": "Heavy plated silhouette, horned brow, badger-like digging claws, tortoise shell plates, oversized anvil maul.",
+      "personalityKeywords": ["unyielding", "dutiful", "protective"],
+      "cardCopy": "A walking bastion who makes every blow costly."
+    },
+    {
+      "id": "corven-vex",
+      "number": 2,
+      "displayName": "Corven Vex",
+      "archetype": "Raven",
+      "title": "The Raven",
+      "hybridSpecies": ["Raven", "Octopus"],
+      "weapon": "Ink-black hooked blades",
+      "hp": 30,
+      "cooldown": 3,
+      "role": ["control", "action-cancel"],
+      "ability": {
+        "id": "void-feint",
+        "name": "Void Feint",
+        "shortEffect": "Cancel the current enemy action."
+      },
+      "visualSignature": "Raven-headed shadow duelist, layered feather mantle, subtle octopus-like flexible tendrils, paired hooked blades.",
+      "personalityKeywords": ["cunning", "evasive", "mocking"],
+      "cardCopy": "A deceptive killer who turns an enemy's intent into nothing."
+    },
+    {
+      "id": "maelis-rotvein",
+      "number": 3,
+      "displayName": "Maelis Rotvein",
+      "archetype": "Plaguewright",
+      "title": "The Plaguewright",
+      "hybridSpecies": ["Hyena", "Axolotl", "Leech"],
+      "weapon": "Blight staff",
+      "hp": 34,
+      "cooldown": 4,
+      "role": ["damage-over-time", "attrition"],
+      "ability": {
+        "id": "lingering-infection",
+        "name": "Lingering Infection",
+        "shortEffect": "Apply 3 poison damage at the end of each of the next four turns."
+      },
+      "visualSignature": "Hyena-like hunched profile, axolotl gills, leech-like skin folds and a staff bearing diseased relics.",
+      "personalityKeywords": ["patient", "morbid", "methodical"],
+      "cardCopy": "A patient architect of wounds that refuse to close."
+    },
+    {
+      "id": "serath-oathscar",
+      "number": 4,
+      "displayName": "Serath Oathscar",
+      "archetype": "Oathbreaker",
+      "title": "The Oathbreaker",
+      "hybridSpecies": ["Stag", "Vulture", "Scorpion"],
+      "weapon": "Broken oath-glaive",
+      "hp": 36,
+      "cooldown": 3,
+      "role": ["retaliation", "punishment"],
+      "ability": {
+        "id": "vengeful-oath",
+        "name": "Vengeful Oath",
+        "shortEffect": "Retaliate for the damage of the enemy's declared attack."
+      },
+      "visualSignature": "Antlered silhouette with carrion-feather mantle, scorpion-tail accents, and a fractured ceremonial glaive.",
+      "personalityKeywords": ["bitter", "unyielding", "vengeful"],
+      "cardCopy": "Every betrayal is answered in kind."
+    },
+    {
+      "id": "ilyra-veilseer",
+      "number": 5,
+      "displayName": "Ilyra Veilseer",
+      "archetype": "Oracle",
+      "title": "The Oracle",
+      "hybridSpecies": ["Owl", "Moth", "Anglerfish"],
+      "weapon": "Lantern sceptre",
+      "hp": 30,
+      "cooldown": 3,
+      "role": ["foresight", "reroll"],
+      "ability": {
+        "id": "threadseer",
+        "name": "Threadseer",
+        "shortEffect": "Gain two additional rerolls and reveal only the next enemy intent."
+      },
+      "visualSignature": "Owl-faced seer, moth-wing mantle, a restrained anglerfish lure integrated into a lantern sceptre.",
+      "personalityKeywords": ["cryptic", "observant", "detached"],
+      "cardCopy": "She glimpses the next thread, never the whole tapestry."
+    },
+    {
+      "id": "garruk-bloodhowl",
+      "number": 6,
+      "displayName": "Garruk Bloodhowl",
+      "archetype": "Bloodhowl",
+      "title": "The Bloodhowl",
+      "hybridSpecies": ["Boar", "Wolf", "Bat"],
+      "weapon": "Bloodied great-axe",
+      "hp": 38,
+      "cooldown": 3,
+      "role": ["high-risk", "strike-burst"],
+      "ability": {
+        "id": "blood-frenzy",
+        "name": "Blood Frenzy",
+        "shortEffect": "Pay 5 HP to double Strike dice contribution, or triple it if below one-third HP when activated."
+      },
+      "visualSignature": "Boar tusks and shoulders, wolf-like predatory posture, ragged bat membranes, heavy great-axe.",
+      "personalityKeywords": ["volatile", "ferocious", "reckless"],
+      "cardCopy": "The closer he comes to death, the harder he hits."
+    },
+    {
+      "id": "vaelis-thornwake",
+      "number": 7,
+      "displayName": "Vaelis Thornwake",
+      "archetype": "Thornwarden",
+      "title": "The Thornwarden",
+      "hybridSpecies": ["Praying Mantis", "Deer", "Pangolin"],
+      "weapon": "Thorn glaive",
+      "hp": 32,
+      "cooldown": 4,
+      "role": ["control", "action-cancel"],
+      "ability": {
+        "id": "rootbind",
+        "name": "Rootbind",
+        "shortEffect": "Cancel the current enemy action."
+      },
+      "visualSignature": "Mantis forearm shapes, deer-like crown and legs, overlapping pangolin scales, long thorned glaive.",
+      "personalityKeywords": ["still", "territorial", "relentless"],
+      "cardCopy": "An ancient sentinel that arrests violence mid-stride."
+    },
+    {
+      "id": "tovin-gearwright",
+      "number": 8,
+      "displayName": "Tovin Gearwright",
+      "archetype": "Gear-Saint",
+      "title": "The Gear-Saint",
+      "hybridSpecies": ["Frog", "Armadillo", "Beetle"],
+      "weapon": "Chronometer hammer",
+      "hp": 34,
+      "cooldown": 3,
+      "role": ["precision", "dice-modification"],
+      "ability": {
+        "id": "clockwork-overwind",
+        "name": "Clockwork Overwind",
+        "shortEffect": "After rolling, choose one die and add 3 to its contribution after the natural-face rule."
+      },
+      "visualSignature": "Frog-like compact stance, armadillo armour segments, beetle shell plates, hammer with clockwork relics.",
+      "personalityKeywords": ["precise", "obsessive", "inventive"],
+      "cardCopy": "He cannot add another die to fate, but he can overdrive one."
+    },
+    {
+      "id": "elsin-mourningcall",
+      "number": 9,
+      "displayName": "Elsin Mourningcall",
+      "archetype": "Dirgesinger",
+      "title": "The Dirgesinger",
+      "hybridSpecies": ["Fox", "Peacock", "Cicada"],
+      "weapon": "Resonance war-lyre",
+      "hp": 32,
+      "cooldown": 4,
+      "role": ["reversal", "healing"],
+      "ability": {
+        "id": "requiem-reversal",
+        "name": "Requiem Reversal",
+        "shortEffect": "If the enemy attacks, convert its damage components into healing."
+      },
+      "visualSignature": "Fox-like face and stance, peacock display feathers, cicada wing textures, resonant lyre weapon.",
+      "personalityKeywords": ["elegant", "haunting", "calculating"],
+      "cardCopy": "A death-song that turns incoming harm into reprieve."
+    },
+    {
+      "id": "nymor-hollowstar",
+      "number": 10,
+      "displayName": "Nymor Hollowstar",
+      "archetype": "Hollow Star",
+      "title": "The Hollow Star",
+      "hybridSpecies": ["Hare", "Abyssal Eel", "Anglerfish"],
+      "weapon": "Void scythe",
+      "hp": 30,
+      "cooldown": 4,
+      "role": ["high-risk", "dice-maximization"],
+      "ability": {
+        "id": "perfected-ruin",
+        "name": "Perfected Ruin",
+        "shortEffect": "Pay 6 HP and set every combat die to its own maximum face; the d20 natural 20 contributes 25."
+      },
+      "visualSignature": "Hare-like long ears, abyssal eel body lines, anglerfish lure, scythe edged with void-like negative space.",
+      "personalityKeywords": ["hollow", "ambitious", "self-destructive"],
+      "cardCopy": "He trades his own life for a moment of impossible certainty."
+    },
+    {
+      "id": "borik-thornwall",
+      "number": 11,
+      "displayName": "Borik Thornwall",
+      "archetype": "The Ironhide",
+      "title": "The Ironhide",
+      "hybridSpecies": ["Wolverine", "Porcupine", "Musk Ox"],
+      "weapon": "Barbed war-pick",
+      "hp": 42,
+      "cooldown": 3,
+      "role": ["tank", "counterattack"],
+      "ability": {
+        "id": "quillguard",
+        "name": "Quillguard",
+        "shortEffect": "Gain 6 Guard; if the current attack damages Borik, return 3 damage."
+      },
+      "visualSignature": "Low, dense musk-ox frame, wolverine claws and jaw, porcupine quills forming a defensive mantle.",
+      "personalityKeywords": ["stubborn", "blunt", "dependable"],
+      "cardCopy": "A living barricade bristling with consequences."
+    },
+    {
+      "id": "kaelen-redtalon",
+      "number": 12,
+      "displayName": "Kaelen Redtalon",
+      "archetype": "The Red Talon",
+      "title": "The Red Talon",
+      "hybridSpecies": ["Secretary Bird", "Shoebill", "Caracal"],
+      "weapon": "Executioner's glaive",
+      "hp": 32,
+      "cooldown": 3,
+      "role": ["execution", "strike-burst"],
+      "ability": {
+        "id": "execution-mark",
+        "name": "Execution Mark",
+        "shortEffect": "Gain 4 Strike; if the enemy survives the normal Strike at 15 HP or less, deal an additional 6 damage."
+      },
+      "visualSignature": "Tall secretary-bird legs and crest, shoebill-like heavy beak, caracal ear tufts, long executioner's glaive.",
+      "personalityKeywords": ["disciplined", "severe", "decisive"],
+      "cardCopy": "He does not chase the wounded; he ends them."
+    },
+    {
+      "id": "sszareth-mirefang",
+      "number": 13,
+      "displayName": "Sszareth Mirefang",
+      "archetype": "The Miremaw",
+      "title": "The Miremaw",
+      "hybridSpecies": ["Gharial", "Monitor Lizard", "Horned Lizard"],
+      "weapon": "Serrated cleaver",
+      "hp": 36,
+      "cooldown": 3,
+      "role": ["guard-break", "direct-damage"],
+      "ability": {
+        "id": "armor-rend",
+        "name": "Armor Rend",
+        "shortEffect": "Deal 5 direct damage that bypasses Guard and reduce enemy Guard by 2 for its next defensive intent."
+      },
+      "visualSignature": "Long gharial snout, monitor-lizard musculature, horned-lizard ridges, broad serrated cleaver.",
+      "personalityKeywords": ["patient", "territorial", "ruthless"],
+      "cardCopy": "A swamp-born breaker that tears through the enemy's defenses."
+    },
+    {
+      "id": "ormund-deepdelver",
+      "number": 14,
+      "displayName": "Ormund Deepdelver",
+      "archetype": "The Burrow King",
+      "title": "The Burrow King",
+      "hybridSpecies": ["Aardvark", "Echidna", "Tapir"],
+      "weapon": "Earthbreaker hammer",
+      "hp": 40,
+      "cooldown": 4,
+      "role": ["tank", "guard-scaling"],
+      "ability": {
+        "id": "earthbound-fortress",
+        "name": "Earthbound Fortress",
+        "shortEffect": "Gain 10 Guard, plus 3 Guard if at least three dice are assigned to Guard."
+      },
+      "visualSignature": "Aardvark muzzle and digging claws, echidna spines, tapir-like mass, broad earthbreaker hammer.",
+      "personalityKeywords": ["patient", "possessive", "steadfast"],
+      "cardCopy": "The deeper he roots himself, the harder he is to move."
+    },
+    {
+      "id": "thalric-stormwake",
+      "number": 15,
+      "displayName": "Thalric Stormwake",
+      "archetype": "The Drowned King",
+      "title": "The Drowned King",
+      "hybridSpecies": ["Albatross", "Frigatebird", "Cormorant"],
+      "weapon": "Tide-splitter spear",
+      "hp": 34,
+      "cooldown": 3,
+      "role": ["strike", "damage-mitigation"],
+      "ability": {
+        "id": "undertow",
+        "name": "Undertow",
+        "shortEffect": "Gain 4 Strike and reduce the next enemy attack by 4, to a minimum of 0."
+      },
+      "visualSignature": "Albatross wingspan and weathered plumage, frigatebird throat silhouette, cormorant-dark finish, long tide-splitter spear.",
+      "personalityKeywords": ["regal", "grim", "unyielding"],
+      "cardCopy": "He brings the weight of a black sea into every exchange."
+    },
+    {
+      "id": "veyra-cindercrawl",
+      "number": 16,
+      "displayName": "Veyra Cindercrawl",
+      "archetype": "The Red Furnace",
+      "title": "The Red Furnace",
+      "hybridSpecies": ["Velvet Worm", "Giant Centipede", "Trap-jaw Ant"],
+      "weapon": "Caustic twin-blades",
+      "hp": 34,
+      "cooldown": 3,
+      "role": ["guard-break", "conditional-strike"],
+      "ability": {
+        "id": "caustic-sheath",
+        "name": "Caustic Sheath",
+        "shortEffect": "Reduce enemy Guard by 4 for its next defensive intent; if the next intent is not defensive, gain 4 Strike this turn without revealing that future intent."
+      },
+      "visualSignature": "Velvet-worm texture and limbs, segmented centipede body accents, trap-jaw ant mandibles, twin caustic blades.",
+      "personalityKeywords": ["volatile", "impatient", "corrosive"],
+      "cardCopy": "Her venom either eats through a wall or sharpens the next strike."
+    },
+    {
+      "id": "rovan-blackstride",
+      "number": 17,
+      "displayName": "Rovan Blackstride",
+      "archetype": "The Black Strider",
+      "title": "The Black Strider",
+      "hybridSpecies": ["Cassowary", "Emu", "Rhea"],
+      "weapon": "Rupture lance",
+      "hp": 36,
+      "cooldown": 3,
+      "role": ["charge", "strike-guard-transition"],
+      "ability": {
+        "id": "breakneck-charge",
+        "name": "Breakneck Charge",
+        "shortEffect": "Gain 8 Strike; if the enemy survives the Strike, gain 4 Guard for its action."
+      },
+      "visualSignature": "Cassowary casque and powerful legs, emu-like feather mass, rhea proportions, long rupture lance.",
+      "personalityKeywords": ["restless", "bold", "competitive"],
+      "cardCopy": "A charging terror who turns momentum into a second line of defense."
+    },
+    {
+      "id": "nyra-gloamveil",
+      "number": 18,
+      "displayName": "Nyra Gloamveil",
+      "archetype": "The Gloamstalker",
+      "title": "The Gloamstalker",
+      "hybridSpecies": ["Genet", "Civet", "Binturong"],
+      "weapon": "Shadow hook-blades",
+      "hp": 30,
+      "cooldown": 4,
+      "role": ["evasion", "strike"],
+      "ability": {
+        "id": "shadowstep",
+        "name": "Shadowstep",
+        "shortEffect": "Negate current attack damage; gain 4 Strike if at least three dice are assigned to Strike. Attached status effects remain."
+      },
+      "visualSignature": "Genet-like long body and spotted coat, civet facial mask, binturong tail, paired shadow hook-blades.",
+      "personalityKeywords": ["quiet", "wary", "opportunistic"],
+      "cardCopy": "She slips past the blow, but not always its lingering curse."
+    },
+    {
+      "id": "eryndor-palevein",
+      "number": 19,
+      "displayName": "Eryndor Palevein",
+      "archetype": "The Pale Deep",
+      "title": "The Pale Deep",
+      "hybridSpecies": ["Giant Salamander", "Caecilian", "Olm"],
+      "weapon": "Ossuary staff",
+      "hp": 34,
+      "cooldown": 4,
+      "role": ["healing", "sustain"],
+      "ability": {
+        "id": "abyssal-regrowth",
+        "name": "Abyssal Regrowth",
+        "shortEffect": "Heal 7 HP, or 10 HP if below half maximum HP when activated; healing cannot exceed maximum HP."
+      },
+      "visualSignature": "Pale amphibian skin, salamander folds, caecilian ringed body details, olm-like translucent features, ossuary staff.",
+      "personalityKeywords": ["ancient", "distant", "resilient"],
+      "cardCopy": "From the lightless deep, damaged flesh remembers how to live."
+    },
+    {
+      "id": "sylvius-moonrift",
+      "number": 20,
+      "displayName": "Sylvius Moonrift",
+      "archetype": "The Nightglider",
+      "title": "The Nightglider",
+      "hybridSpecies": ["Flying Squirrel", "Colugo", "Sugar Glider"],
+      "weapon": "Crescent daggers",
+      "hp": 32,
+      "cooldown": 3,
+      "role": ["reroll", "mobility"],
+      "ability": {
+        "id": "slipstream",
+        "name": "Slipstream",
+        "shortEffect": "Reroll up to two selected dice for free; each die can be rerolled at most once, and each new result must be kept."
+      },
+      "visualSignature": "Gliding membranes shaped by flying-squirrel and colugo traits, sugar-glider facial markings, paired crescent daggers.",
+      "personalityKeywords": ["nimble", "playful", "elusive"],
+      "cardCopy": "A fleeting silhouette that gets one more chance to shape the roll."
+    }
+  ]
+}
