@@ -1,15 +1,6 @@
-# Kaelen Redtalon — Character UI
+# Kaelen Redtalon — Retired Character UI
 
-**Status:** Not started  
-**Canonical source:** `rules/characters/character-data.json`
+**Status:** Retired from active roster  
+**Replacement:** [Kharun Crimsonmane](../kharun-crimsonmane/README.md)
 
-This folder is reserved for Kaelen Redtalon's approved character UI design and assets.
-
-## Planned contents
-
-- `ui-design.md` — character-specific UI layout and interaction notes
-- `assets/portrait/` — approved close-up roster portrait
-- `assets/full-body/` — approved full-body illustration
-- `assets/ability/` — approved ability icon
-
-Do not add invented stats, ability effects, or lore. Complete and approve this character before moving to the next one.
+Kaelen Redtalon was replaced in roster slot 12 by Kharun Crimsonmane. Do not use this folder for active roster UI or artwork. Historical files, if any, are retained only as archive material.
