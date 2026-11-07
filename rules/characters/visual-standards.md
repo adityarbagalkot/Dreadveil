@@ -14,7 +14,7 @@ The roster belongs to **The Forbidden Manuscript**: gothic dark fantasy, occult 
 
 ## Original ten and new ten
 - The original ten keep their established hybrid species and archetype identity.
-- Characters 11–20 should not reuse any species from the original ten.
+- Characters 11–20 should not reuse any species from the original ten. Recheck this rule whenever a hybrid is replaced; replacements must be checked against the full active roster.
 - Multi-species hybrids should have a clear hierarchy: one dominant silhouette, one or two supporting traits, and a few fine details.
 - Avoid duplicating weapon silhouettes or poses across several characters.
 - Each character's face, weapon, and signature animal trait should remain distinguishable in a small roster portrait.
@@ -64,6 +64,12 @@ Use the following sequence for all 20 characters. Complete and explicitly approv
 - Canonical ability: **Forgeguard**. Canonical values remain in `character-data.json`; concept-sheet labels and extra prose are not authoritative.
 
 ## Suggested stable design IDs
-Use kebab-case IDs that do not change when display names are edited: darius-forgeward, corven-vex, maelis-rotvein, serath-oathscar, ilyra-veilseer, garruk-bloodhowl, vaelis-thornwake, tovin-gearwright, elsin-mourningcall, nymor-hollowstar, borik-thornwall, kaelen-redtalon, sszareth-mirefang, ormund-deepdelver, thalric-stormwake, veyra-cindercrawl, rovan-blackstride, nyra-gloamveil, eryndor-palevein, sylvius-moonrift.
+Use kebab-case IDs that do not change when display names are edited: darius-forgeward, corven-vex, maelis-rotvein, serath-oathscar, ilyra-veilseer, garruk-bloodhowl, vaelis-thornwake, tovin-gearwright, elsin-mourningcall, nymor-hollowstar, borik-thornwall, kharun-crimsonmane, sszareth-mirefang, ormund-deepdelver, thalric-stormwake, veyra-cindercrawl, braxen-stonecarapace, nyra-gloamveil, eryndor-palevein, sylvius-moonrift.
 
 These are design IDs only; reconcile them with implementation IDs before game code uses them.
+
+
+### Roster replacements — approved
+- Character 12 replaces Kaelen Redtalon with **Kharun Crimsonmane** (Gorilla × Gelada × Lion). Preserve the approved gorilla/gelada/lion visual concept, spiked war-mace, HP 40, CD 4, and Rallying Roar: gain 6 Guard and 4 Strike; allies gain 2 Guard.
+- Character 17 replaces Rovan Blackstride with **Braxen Stonecarapace** (Glyptodon × Ankylosaurus × Warthog). Pangolin was removed because Vaelis already uses it; Armadillo was also excluded because Tovin already uses it. Preserve the approved heavy carapace concept, cracked stone maul, HP 44, CD 3, and Stone Bulwark: gain 8 Guard; while this Guard remains, reduce incoming Strike damage by 4, minimum 0.
+- The active roster retains Thalric Stormwake as its dedicated seabird hybrid.
